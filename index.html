@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Weather App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Weather App</h1>
-    <form id="locationForm">
-      <input type="text" id="locationInput" placeholder="Enter location">
-      <button type="submit">Get Weather</button>
-    </form>
-    <div id="weatherInfo" class="hidden">
-      <h2 id="location"></h2>
-      <p id="temperature"></p>
-      <p id="humidity"></p>
-      <p id="windSpeed"></p>
-    </div>
-  </div>
+    <header>
 
-  <script src="script.js"></script>
+        <div id="heading">Weather App</div>
+
+        <div id="main-card">
+
+            <input type="text" placeholder="Type the name of the city..." id="location">
+            <button id="submit-button">SUBMIT</button>
+
+        </div>
+
+    </header>
+    <main>
+
+        <div id="block" class="blockk"></div>
+
+    </main>
+    <div style="display: none" class="blockChild"></div>
+    <img style="display: none" class="blockImage"></img>
+    <script src="main.js"></script>
 </body>
 </html>
