@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    
+    background: radial-gradient(ellipse 40% 60%,rgb(0, 150, 250), #000080);
+}
+header{
+    display: flex;height:150px; 
+    width:99.7vw;
+    /* background-color: #234E70; */
+    /* border: 3px solid black; */
+    color:white;
+}
+#heading{
+    
+    padding-left:50px;
+    padding-top:23px;
+    font-size: 84px;
+}
+#location{
+    width:500px;
+}
+#main-card{
+    margin:auto;
+}
+main{
+    /* background-color: #F7C5CC; */
+    /* background-color: #4470AD; */
+    /* background: radial-gradient(ellipse 40% 60%,rgb(0, 150, 250), #000080); */
+      /* This ensures the gradient covers the entire viewport */
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
+input{
+    padding-left:35px;
+    padding-right:35px;
+    height:40px;
+}
+#searchBar{
+    /* padding:5px; */
+    border-radius: 2px;
+    position: absolute;
+    right:225px;
+    top:54.5px;
+    margin-left:25px;
+    width:50px;
+    height:41.5px;
+    border-left: 2px solid black;
+}
+#block{
+    /* background-color:#4470AD; */
+    padding-top:40px;
+    height:100vh;
+    width:1000px;
+    margin:auto;
+}
+.blockChild{
+    color:white;
+    font-weight: 1000;
+    font-size: 30px;
+    display:inline-block;
+    margin-left:50px;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:15px;
+    height:180px;
+    width:250px;
+    /* background-color: rgb(25, 25, 112); */
+    background-color: lightblue;
+}
+.blockChild2{
+    color:white;
+    font-size: 60px;
+    position: relative; 
+    left:350px; 
+    width: -moz-fit-content;
+}
+.blockChild3{
+    color:white;
+    font-size: 50px;
+    position: relative; 
+    
+    display: inline-block;
+    /* top:35px; */
+    bottom: 30px;
+    left:350px;
+    width: -moz-fit-content;
+}
+.blockChild4{
+    color:white;
+    font-size: 60px;
+    position: relative; 
+    bottom:20px;
+    left:375px; 
+    width: -moz-fit-content;
+}
+.blockImage{
+    width:120px;
+    height:120px;
+    display: inline-block;
+    margin-left:380px ;
+    
+}
+.blockImage2{
+    width:220px;
+    height:120px;
+    display: inline-block;
+    margin-left:380px ;
+    
+}
+.logo{
+    width:100px;
+    position: relative;
+    left:70px;
+    top:15px;
+    
+}
+.logo-details{
+    color:rgb(25, 25, 112);
+    position: relative;
+    left: 20px;
+    top:27px;
+    font-weight: 800;
+}
+.blockChild-container{
+    display: flex;
+    padding:0px;
+    position: relative;
+    bottom:40px;
+    right:50px;
+}
